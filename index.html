@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; script-src 'self';" />
+  <title>THE DARK TRIAD</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="background-stack" data-motion>
+    <div class="background-layer" id="bg-overlay" aria-hidden="true"></div>
+    <div class="grain-overlay" aria-hidden="true"></div>
+    <div class="scanlines" aria-hidden="true"></div>
+  </div>
+
+  <header class="top-bar" data-glass>
+    <div class="logo-wrap" aria-hidden="true">
+      <img src="assets/media/logo-triangle.png" alt="" class="logo" />
+    </div>
+    <button class="login-button" type="button">LOGIN</button>
+  </header>
+
+  <main>
+    <section class="hero" id="intro" data-section>
+      <div class="axis axis-horizontal" aria-hidden="true"></div>
+      <div class="axis axis-vertical" aria-hidden="true"></div>
+      <div class="hero-content" data-glass>
+        <img src="assets/media/logo-triangle.png" alt="" class="hero-logo" />
+        <h1 id="hero-title" class="hero-title" tabindex="0">
+          THE <span>TRIAD</span>
+        </h1>
+        <p class="hero-subtitle">SYNTHETIC INTROSPECTION PROTOCOL</p>
+        <p class="hero-text">
+          Decode the triarchic alignment. Traverse the archive. Engage with the council.
+        </p>
+      </div>
+      <nav class="glyph-bar" aria-label="Primary">
+        <div id="glyph-buttons" class="glyph-buttons"></div>
+      </nav>
+    </section>
+
+    <section id="library" class="panel" data-section>
+      <div class="panel-inner" data-glass>
+        <h2>Library</h2>
+        <p class="section-intro">Curated manuscripts and dossiers stratified by threat priority.</p>
+        <div class="card-grid">
+          <article class="card" data-depth="high">
+            <header>
+              <h3>Codex Obscura</h3>
+              <span class="badge badge-high">High</span>
+            </header>
+            <p>Encrypted scripts chronicling the rise of covert triads across forgotten empires.</p>
+          </article>
+          <article class="card" data-depth="medium">
+            <header>
+              <h3>Psych Profile Series</h3>
+              <span class="badge badge-medium">Medium</span>
+            </header>
+            <p>Behavioral matrices and deviance indices compiled from subterranean conclaves.</p>
+          </article>
+          <article class="card" data-depth="low">
+            <header>
+              <h3>Field Notes: Peripheral Cells</h3>
+              <span class="badge badge-low">Low</span>
+            </header>
+            <p>Peripheral reports capturing murmurs of ascendant factions and dormant nodes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="board" class="panel" data-section>
+      <div class="panel-inner" data-glass>
+        <h2>Board</h2>
+        <p class="section-intro">Automated dispatches routed from the inner forum.</p>
+        <ul id="board-feed" class="board-feed" aria-live="polite"></ul>
+      </div>
+    </section>
+
+    <section id="tributes" class="panel" data-section>
+      <div class="panel-inner" data-glass>
+        <h2>Tributes</h2>
+        <p class="section-intro">Recognitions of operatives who advanced the triad initiative.</p>
+        <div class="tribute-grid" id="tribute-grid"></div>
+      </div>
+      <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" hidden tabindex="-1">
+        <div class="lightbox-content" data-glass>
+          <button class="lightbox-close" type="button" aria-label="Close">×</button>
+          <img src="" alt="" id="lightbox-image" />
+          <p id="lightbox-caption"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel" data-section>
+      <div class="panel-inner" data-glass>
+        <h2>Contact</h2>
+        <p class="section-intro">Initiate communication with the custodians of the dark triad.</p>
+        <form id="contact-form" novalidate>
+          <label class="form-field">
+            <span>Name</span>
+            <input type="text" name="name" required />
+          </label>
+          <label class="form-field">
+            <span>Email</span>
+            <input type="email" name="email" required />
+          </label>
+          <label class="form-field">
+            <span>Message</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="submit-button">Transmit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden>
+    <span>Signal received. Await further instructions.</span>
+  </div>
+
+  <script src="assets/js/glyphs.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "intro",
+    "real": "Enter Temple",
+    "glyphs": ["ꖦꗃꕥ", "ᚷᛃᛞ", "𐌂𐌂𐌂", "⛧⸸⛧", "シ卍ネ"]
+  },
+  {
+    "id": "library",
+    "real": "Access Library",
+    "glyphs": ["⎔⟟⟊", "𐍉𐍊𐌼", "卄丶乂", "₪✠₪", "ᚾᛁᛟ"]
+  },
+  {
+    "id": "board",
+    "real": "Council Board",
+    "glyphs": ["⟁⟊⟟", "ᛒᚱᛟ", "𐌑𐌉𐌂", "⛨⛧⛨", "ϞϟϞ"]
+  },
+  {
+    "id": "tributes",
+    "real": "Honor Tributes",
+    "glyphs": ["𖣘𖣐𖣗", "ᛞᛚᛁ", "凸卄凸", "✶✶✶", "ツメツ"]
+  },
+  {
+    "id": "contact",
+    "real": "Send Signal",
+    "glyphs": ["𖤐𖤓𖤐", "卍シ卍", "ᚢᛏᚱ", "†††", "¤¤¤"]
+  }
+]
